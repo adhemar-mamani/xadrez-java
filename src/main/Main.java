@@ -1,6 +1,5 @@
 package main;
 
-import boardgame.Board;
 import chess.ChessMatch;
 
 public class Main {
