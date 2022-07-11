@@ -15,7 +15,7 @@ public class UI {
 			System.out.println();
 		}
 		
-		System.out.println("  a b c d e f g h");
+		System.out.print("  a b c d e f g h");
 
 	}
 
@@ -23,7 +23,7 @@ public class UI {
 		if (piece == null) {
 			System.out.print("-");
 		} else {
-			System.out.println(piece);
+			System.out.print(piece);
 		}
 		System.out.print(" ");
 	}
