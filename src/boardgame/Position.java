@@ -30,7 +30,15 @@ public class Position {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return row+", "+column;
+		return row + ", " + column;
 	}
-	
+
+	public void setValues(int row, int column) {
+
+		this.row = row;
+
+		this.column = column;
+
+	}
+
 }
